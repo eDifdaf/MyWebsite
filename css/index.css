@@ -1,6 +1,6 @@
 body{
   background-color: #3c1563;
-  font-family: Roboto;
+  font-family: Arial;
   margin: 0px;
 }
 button {
@@ -36,6 +36,11 @@ h1:hover{
 
 .discord-bt{
   width: 50%;
+  transition: width 1.5s;
+  -webkit-transition: width 1.5s;
+  -moz-transition: width 1.5s;
+  -ms-transition: width 1.5s;
+  -o-transition: width 1.5s;
 }
 .discord-bt:hover{
   width: 60%;
@@ -46,6 +51,11 @@ h1:hover{
 
 .turniere-bt{
   width: 50%;
+  transition: width 1.5s;
+  -webkit-transition: width 1.5s;
+  -moz-transition: width 1.5s;
+  -ms-transition: width 1.5s;
+  -o-transition: width 1.5s;
 }
 .turniere-bt:hover{
   width: 60%;
