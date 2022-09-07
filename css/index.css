@@ -8,58 +8,74 @@ button {
   margin-bottom: 10px;
   margin-left: 0px;
   margin-right: 0px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   border: none;
   font-size: 50px;
 }
 h1{
   border: none;
-  font-size: 32px;
+  font-size: 64px;
   color:#e2ff61;
   background-color: #FF1053;
-  margin-top: 300px;
+  margin-top: 200px;
   margin-bottom: 0px;
   padding-top: 18px;
   padding-bottom: 18px;
   text-align: center;
-  transition: padding 1.5s, font-size 1.5s;
-  -webkit-transition: padding 1.5s, font-size 1.5s;
-  -moz-transition: padding 1.5s, font-size 1.5s;
-  -ms-transition: padding 1.5s, font-size 1.5s;
-  -o-transition: padding 1.5s, font-size 1.5s;
+  transition: font-size 1.5s;
+  -webkit-transition:;
+  -moz-transition:;
+  -ms-transition:;
+  -o-transition:;
 }
 h1:hover{
   cursor: default;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  font-size: 40px;
+  font-size: 60px;
 }
 
+.buttons{
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
 .discord-bt{
-  width: 50%;
-  transition: width 1.5s;
-  -webkit-transition: width 1.5s;
-  -moz-transition: width 1.5s;
-  -ms-transition: width 1.5s;
-  -o-transition: width 1.5s;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #7289da;
+  color: #ffffff;
+  flex-grow: 1;
+  transition: flex-grow 1.5s, opacity 0.15s;
+  -webkit-transition: flex-grow 1.5s, opacity 0.15s;
+  -moz-transition: flex-grow 1.5s, opacity 0.15s;
+  -ms-transition: flex-grow 1.5s, opacity 0.15s;
+  -o-transition: flex-grow 1.5s, opacity 0.15s;
 }
 .discord-bt:hover{
-  width: 60%;
+  flex-grow: 5;
 }
-.discord-bt:hover + .turniere-bt{
-  width: 40%;
+.discord-bt:active{
+  opacity: 0.75;
 }
 
 .turniere-bt{
-  width: 50%;
-  transition: width 1.5s;
-  -webkit-transition: width 1.5s;
-  -moz-transition: width 1.5s;
-  -ms-transition: width 1.5s;
-  -o-transition: width 1.5s;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #2c2f33;
+  color: #99aab5;
+  flex-grow: 1;
+  transition: flex-grow 1.5s, opacity 0.15s;
+  -webkit-transition: flex-grow 1.5s, opacity 0.15s;
+  -moz-transition: flex-grow 1.5s, opacity 0.15s;
+  -ms-transition: flex-grow 1.5s, opacity 0.15s;
+  -o-transition: flex-grow 1.5s, opacity 0.15s;
 }
 .turniere-bt:hover{
-  width: 60%;
+  flex-grow: 5;
 }
-.turniere-bt:hover + .discord-bt{
-  width: 40%;
+.turniere-bt:active{
+  opacity: 0.75;
 }
