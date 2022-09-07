@@ -3,7 +3,7 @@ body{
   font-family: Arial;
   margin: 0px;
 }
-button {
+a {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 0px;
@@ -12,6 +12,8 @@ button {
   padding-bottom: 12px;
   border: none;
   font-size: 50px;
+  text-align: center;
+  text-decoration: none;
 }
 h1{
   border: none;
@@ -20,14 +22,13 @@ h1{
   background-color: #FF1053;
   margin-top: 200px;
   margin-bottom: 0px;
-  padding-top: 18px;
-  padding-bottom: 18px;
+  height: 80px;
   text-align: center;
-  transition: font-size 1.5s;
-  -webkit-transition:;
-  -moz-transition:;
-  -ms-transition:;
-  -o-transition:;
+  transition: font-size 1.5s,  padding 1.5s;
+  -webkit-transition: font-size 1.5s,  padding 1.5s;
+  -moz-transition: font-size 1.5s,  padding 1.5s;
+  -ms-transition: font-size 1.5s,  padding 1.5s;
+  -o-transition: font-size 1.5s,  padding 1.5s;
 }
 h1:hover{
   cursor: default;
